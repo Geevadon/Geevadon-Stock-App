@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\Notification;
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 
 class ViewComposerProvider extends ServiceProvider
@@ -25,12 +26,17 @@ class ViewComposerProvider extends ServiceProvider
     public function boot()
     {
 
-        view ()->composer ('layouts.default', function ($view) {
-            $notifications_count = Notification::all ()->count ();
-            $notifications = Notification::orderBy ('created_at', 'desc')->paginate (3);
+        view()->composer('layouts.default', function ($view) {
 
-            $view->with (compact('notifications', 'notifications_count'));
+            if (Schema::hasTable('notifications')) {
+                $notifications_count = Notification::all()->count();
+                $notifications = Notification::orderBy('created_at', 'desc')->paginate(3);
+            } else {
+                $notifications_count = 0;
+                $notifications = [];
+            }
 
+            $view->with(compact('notifications', 'notifications_count'));
         });
     }
 }
