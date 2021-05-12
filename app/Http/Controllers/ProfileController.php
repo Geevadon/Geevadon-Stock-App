@@ -98,7 +98,7 @@ class ProfileController extends Controller
 
             // On supprime d'abord l'ancienne image si elle est differente de l'image par defaut
             $userImage = auth ()->user ()->profile->photo;
-            $oldImage = public_path('storage/'.auth ()->user ()->profile->photo);
+            $oldImage = public_path(auth ()->user ()->profile->photo);
 
             if ($userImage != 'avatars/default.png') {
                 @unlink ($oldImage);
@@ -107,7 +107,7 @@ class ProfileController extends Controller
             // On sauvegarde la nouvelle image dans le dossier concerné
             $realPath = request ()->photo->store ('avatars', 'public');
 
-            Image::make (storage_path('app/public/'.$realPath))
+            Image::make (public_path($realPath))
                     ->fit (250, 250)
                     ->save ();
 
