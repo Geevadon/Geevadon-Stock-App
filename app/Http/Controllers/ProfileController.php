@@ -107,8 +107,7 @@ class ProfileController extends Controller
             // On sauvegarde la nouvelle image dans le dossier concerné
             $realPath = request ()->photo->store ('avatars', 'public');
 
-            // On redimentionne l'image à la bonne taille
-            Image::make (public_path('storage/'.$realPath))
+            Image::make (storage_path('app/public/'.$realPath))
                     ->fit (250, 250)
                     ->save ();
 
