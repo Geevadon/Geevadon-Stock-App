@@ -295,7 +295,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>&copy; {{ config ('app.name') }} - Creative Commons (CC BY) - Made with ❤️ by Donatien Vamuleke (Geevadon)</span>
+                        <span>&copy; {{ config ('app.name') }} - Licence MIT - Made with ❤️ by Donatien Vamuleke (Geevadon)</span>
                     </div>
                 </div>
             </footer>
