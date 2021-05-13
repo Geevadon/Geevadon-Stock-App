@@ -27,3 +27,8 @@ Si vous êtes développeur (ou pas), vous pouvez tout à fait continuer au proje
 
 # Licence
 - Ce projet est protégé par la licence MIT.
+
+# Screenshots
+<img src="https://github.com/Geevadon/geevadon-stock/blob/master/public/images/gstock-dashboard.png" alt="Tableau de bord de Geevadon Stock" title="Tableau de bord de Geevadon Stock"/>
+<hr />
+<img src="https://github.com/Geevadon/geevadon-stock/blob/master/public/images/gstock-add-new-order.png" alt="Page de création d'une nouvelle commande" title="Page de création d'une nouvelle commande"/>
