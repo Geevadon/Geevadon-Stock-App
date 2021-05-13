@@ -1,10 +1,10 @@
 {
-    "name": "laravel/laravel",
+    "name": "geevadon/geevadon-stock",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Geevadon Stock - A Simple Stock Management App",
     "keywords": [
-        "framework",
-        "laravel"
+        "stock management",
+        "stock"
     ],
     "license": "MIT",
     "require": {
