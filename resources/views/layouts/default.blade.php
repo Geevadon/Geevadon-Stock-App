@@ -28,7 +28,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route ('page.dashboard')}}">
@@ -295,7 +295,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>&copy; {{ config ('app.name') }} - Creative Commons (CC BY)</span>
+                        <span>&copy; {{ config ('app.name') }} - Creative Commons (CC BY) - Made with ❤️ by Donatien Vamuleke (Geevadon)</span>
                     </div>
                 </div>
             </footer>

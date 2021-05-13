@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col-md-4 mb-3">
             <div class="card">
-                <img class="card-img-top mx-auto mt-2 rounded-circle" src="{{ asset ('storage/'.auth()->user()->profile->photo) }}" style="width:200px">
+                <img class="card-img-top mx-auto mt-2 rounded-circle" src="{{ asset (auth()->user()->profile->photo) }}" style="width:200px">
 
                 <div class="card-body">
                     <h4 class="card-title text-center">Mes informations</h4>

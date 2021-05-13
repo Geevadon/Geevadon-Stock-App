@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ config('app.name') }}</title>
 
-    <link rel="icon" type="image/png" href="{{ asset ('images/ghotel-favicon.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset ('images/favicon.png') }}">
 
   <!-- Custom fonts for this template-->
     <link rel="stylesheet" href="{{ asset('fontawesome/css/all.css') }}">

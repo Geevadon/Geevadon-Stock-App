@@ -13,32 +13,31 @@
 <div class="row mb-2 mt-4">
     <div class="col-md-2 mr-3">
         <img src="{{ asset ('images/logo.png') }}" alt="Logo" class="img-thumbnail" style="max-width: 100%; height:auto">
-        <div class="font-italic lead">Technology for life</div>
+        <div class="font-italic lead">Lorem ipsum</div>
 
     </div>
 
     <div class="col-md-4 py-2 mr-4">
-        <h6 class="font-italic font-weight-normal">Nos factures sont payables au grand comptant à l'enlèvement du matériel.<br>
-            Délai exceptionnel de 7 jours pour les ONG et nos abonnés.<br>
-            Pénalité de retard : 3% par semaine.<br>
-            Aucune garantie accordée sur le matériel à alimentation électrique.</h6>
+        <h6 class="font-italic font-weight-normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, vitae.<br>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, dolore.<br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe velit molestias inventore?</h6>
     </div>
 
     <div class="col-md-5">
-        <div class="client-name bg-light p-1 mb-2">
+        <div class="client-name bg-light p-2 mb-2">
             <h4>Client : {{ $order->customer_name }}</h4>
         </div>
-        <div class="border border-dark rounded p-1">
+        <!-- <div class="border border-dark rounded p-1">
             ProduitNom<br><br>
             {{ $order->designation }}
-        </div>
+        </div> -->
         <div class="row mt-1">
             <div class="col-md-2">
                 <img src="{{ asset ('images/drc-flag.png') }}" alt="Logo" class="img-thumbnail" style="max-width: 60px; height:auto">
             </div>
             <div class="col-md-10">
                 <div>REPUBLIQUE DEMOCRATIQUE DU CONGO</div>
-                <small>Goma : 26, Av. Les bougainvilliers, Q. Les Volcans</small>
+                <small>Goma : 30, Av. Lorem, ipsum., Q. Lorem, ipsum.</small>
             </div>
         </div>
     </div>
@@ -46,28 +45,28 @@
 
 <div class="row mb-3">
     <div class="col-md-6">
-        <small>Direction : +243 970 766 755, +243 823 403 336</small><br>
-        <small>Garage : +243 821 688 586</small><br>
-        <small>Email : <u>techlifeinfo1@gmail.com</u></small><br>
-        <small>RCCM : GOMA/RCCM/14-00575</small><br>
-        <small>Id Nat : 5-93-N89963F</small><br>
-        <small>N° impôt : A1511529Z</small>
+        <small>Direction : +243 970 000 000, +243 820 000 000</small><br>
+        <small>Garage : +243 820 000 000</small><br>
+        <small>Email : <u>test@gmail.com</u></small><br>
+        <small>RCCM : GOMA/RCCM/00-0000</small><br>
+        <small>Id Nat : 00-00-N0000F</small><br>
+        <small>N° impôt : A000000Z</small>
     </div>
     <div class="col-md-6"></div>
 </div>
 
 <div class="row">
     <div class="col-md-4">
-        <small>Compte bancaire (TMB) : <b>1272-7200254-01-13</b></small><br>
-        <small>Intitulé : <b>ETS TECHLI</b></small><br>
-        <small>Code Swift : <b>TRMSCD3L</b></small>
+        <small>Compte bancaire (TMB) : <b>0000-0000000-00-00</b></small><br>
+        <small>Intitulé : <b>NOM FIRME</b></small><br>
+        <small>Code Swift : <b>LOREMIPSUM</b></small>
     </div>
     <div class="col-md-4">
         <h1 class="font-weight-bold text-center print-title">FACTURE</h1>
     </div>
     <div class="col-md-4 text-right">
         <br><br>
-        <small>VENDOR NUMBER : <b>50066457</b></small>
+        <small>VENDOR NUMBER : <b>0000000</b></small>
     </div>
 </div>
 
@@ -132,9 +131,9 @@
 <hr class="row bg-dark">
 <div class="row mt-3 my-1">
     <div class="col-md-4">
-        <small>Diesel injection pumps reconditioning</small><br>
-        <small>Engine rebuilding</small><br>
-        <small>Power generators</small><br>
+        <small>Lorem ipsum dolor sit amet.</small><br>
+        <small>Lorem, ipsum.</small><br>
+        <small>Lorem, ipsum.</small><br>
     </div>
     <div class="col-md-4">
         <img src="{{ asset ('images/clock.jpg') }}" alt="Logo" class="img-thumbnail" style="max-width: 100px; height:auto">
