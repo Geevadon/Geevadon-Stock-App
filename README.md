@@ -31,4 +31,5 @@ Si vous êtes développeur (ou pas), vous pouvez tout à fait continuer au proje
 # Screenshots
 ![Tableau de bord de Geevadon Stock](public/images/gstock-dashboard.png)
 <hr />
+
 ![Page de création d'une nouvelle commande](public/images/gstock-add-new-order.png)
